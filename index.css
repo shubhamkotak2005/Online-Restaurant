@@ -1,0 +1,138 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Aligns the overall content center */
+    scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+
+body p{
+    font-family: oranienbaum;
+}
+.header {
+    background-image: url("./reference/banner.jpg");
+    height: 750px;
+    /* width: 1450px; */
+    background-position: top;
+    text-decoration: none;
+}
+.header{
+    color: white;
+    padding:10px;
+    border: none;
+    text-decoration: none;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.7rem;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-decoration: none;
+    margin: none;
+    margin-top: 0;
+}
+.navbar li{
+    display: block;
+    flex-direction: column;
+    padding: 20px;
+    text-decoration: none;
+}
+.header h1{
+    display: flex;
+    font-size: 4rem;
+    font-family: pacifico, cursive;
+    justify-content: center;
+    margin: 0;
+    color: rgb(255, 60, 0);
+    -webkit-text-stroke: 1px white;
+}
+.header p {
+    display: flex;
+    flex-wrap: wrap; /* Enables wrapping of content */
+    padding-left: 50px;
+    padding-top: 20px;
+    margin: 0;
+    font-size: 2rem;
+    width: 100%; /* Makes the paragraph take the full width of the container */
+    max-width: 500px; /* Prevents it from exceeding 500px on wider screens */
+}
+ .food {
+    display: grid; 
+    grid-template-rows: 1fr 1fr 1fr ; 
+    grid-template-columns: 1fr 1fr 1fr 1fr ; 
+    gap: 20px; 
+    padding: 20px; 
+    border-radius: 10px;
+    margin: 0 auto;
+} 
+
+
+.food img {
+    width: 70%; /* Ensures the images are responsive */
+    height: 70%; /* Maintains aspect ratio */
+    object-fit: contain; /* Prevents the image from stretching */
+    margin: 0 auto;
+}
+
+.menu{
+    background-image: url("./reference/dark wood.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu h2{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 3rem;
+    margin: 0;
+    color: white;
+}
+.food p{
+    color: white;
+    margin: 0 auto;
+}
+.food div {
+    background-color: hsla(0, 0%, 0%, 0.459); /* Shared background color */
+    border-radius: 10px; /* Adds rounded corners for all */
+    text-align: center; /* Ensures text is centered */
+}
+
+.food div img {
+    width: 70%; /* Makes the image responsive */
+    height: auto; /* Maintains aspect ratio */
+    margin: 0 auto;
+    display: block;
+}
+
+.food div p {
+    font-size: 2rem;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.about-us{
+    background-image: url("./reference/dark\ wood.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-us img{
+    width: 45%;
+    height: auto;
+}
+.about-us h2{
+    
+    text-align: center;
+    padding-top: 20px;
+    font-size: 3rem;
+    margin: 0;
+    color: white;
+}
+.about-us p{
+    color: white;
+    font-size: 2rem;    
+    padding-bottom: 32px;
+    margin-bottom: 0;
+
+}

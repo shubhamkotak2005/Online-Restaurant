@@ -1,0 +1,35 @@
+body {
+    background-image: url("./reference/dark\ wood.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+body p{
+    font-family: oranienbaum;
+    color: white;
+}
+body,html{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+img {
+    max-width: 300px; /* Sets the maximum width to 300px */
+    max-height: 300px; /* Sets the maximum height to 300px */
+    width: auto; /* Ensures the image maintains its aspect ratio */
+    height: auto; /* Ensures the image maintains its aspect ratio */
+    margin: auto; /* Centers the image horizontally */
+    display: block; /* Centers the image within its container */
+    padding-top: 40px;
+}
+p {
+    font-size: 2rem;
+    padding-bottom: 32px;
+    margin-bottom: 0;
+}
+.div2 p {
+    padding-bottom:0 ;
+    font-size: 2rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
